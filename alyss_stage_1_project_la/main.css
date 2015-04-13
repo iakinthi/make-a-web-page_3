@@ -1,0 +1,205 @@
+/* created by al for stage 1 project */
+div {
+	display: block;
+}
+
+/*  really prefer some friendlier fonts */
+body {
+	font-family: "Whitney SSm A", "Whitney SSm B", "Lucida Grande", "Lucida Sans", Verdana, Helvetica, Arial, sans-serif;
+	color: #141414;
+	font-size: 1.2em;
+	padding: 20px 10px;
+   max-width: 2000px;
+   margin: 0 auto;
+}
+
+/* love the blue color such as #6699FF #0066CC in hex */
+h2 {
+	color: #0066CC;
+	margin-left: 10px;
+	padding: 4px;
+	margin: 10px;
+	text-align: center;	
+	font-weight: 900;
+	
+}
+
+/* some experiments with classes */
+.main-title{
+	background-color: #D0D0D1;
+	padding: 2px;	
+	border-style: solid;
+	border-radius: 20px;
+   	border-color: #FF9900;
+}
+
+.project {
+  	background-color: #BECAD6;
+   padding: 4px;
+   margin: 10px;
+   color: #336699;
+	border-style:solid;
+	border-color: #5CD65C;
+	border-radius: 20px;
+	
+}
+
+.project-title {
+   font-size: 22px;
+	margin: 8px;
+	text-align: center;
+	color: #FF4719;
+	font-weight: 900;
+}
+
+.project-description {
+	color: #0066FF;
+   font-weight: lighter;
+	margin: 6px;
+}
+
+/* details for images */
+.image-wrapper{	
+	float: left;
+	padding-right: 10px;
+	margin: 5px;
+}
+
+/* all about id=kitt is very confidential  */
+
+.secret {
+    color: black;
+    font-weight: bold;
+    padding-left:  8px;
+    padding-right: 8px;
+    border-style: solid;
+	 border-radius: 20px;
+	 border-color:  #660033;
+}
+
+ 
+.secret
+.code1 {
+	 background-color: #6699FF;
+    font-family: Courier;
+	 border-color:#99CC00;
+	 
+} 
+
+.secret
+.code2 {
+	 background-color: #CC99FF;
+     font-family: Helvetica;
+	 border-color: #CCFF33;
+}
+
+.secret 
+.code3 {
+	 background-color: #FFCC66;
+     font-family: Arial;
+     border-color: #00CC99;
+}
+
+.span-code {
+	background-color: #669999;
+    font-family: sans-serif;
+    color : silver;
+    font-weight: bold;
+    padding-left:  4px;
+    padding-right: 4px;
+    border-style: dotted;
+	border-color: #CC00CC;
+	border-radius: 10px;
+}
+
+/* background image with id kitt */
+#kitt { 
+   background-image: url(images/kitt3.jpg);
+   background-size: contain; 
+}
+
+/* specific definitions for shape classes 
+	based on https://css-tricks.com/examples/ShapesOfCSS/
+*/
+.square {
+  float: left;	
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-color: #00CC00;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rectangle {
+  float: left;
+  width: 70px;
+  height: 50px;
+  margin-right: 10px;
+  background-color: #0066CC; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.circle {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: red;
+	border-radius: 50px;
+	background: red;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.triangle-up {
+ 	float: left;
+  	width: 0;
+  	height: 0;
+  	border-left: 50px solid transparent;
+  	border-right: 50px solid transparent;
+  	border-bottom: 50px solid orange;
+  	margin-left: 10px;
+  	margin-right: 10px;
+}
+
+/* specific definitions for video frames
+	https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+*/
+
+.video-wrapper {
+	width: 600px;
+	max-width: 100%;
+	padding-top: 10px;
+	padding-left: 10px;
+	
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 10px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* my_self_ defined_footer */
+#footer{
+	background-color: #FFC670;
+   padding: 10px;
+   margin: 10px;
+   color: #336699;
+	border-style:solid;
+	border-color: #3399FF;
+	border-radius: 20px;
+}
